@@ -1,47 +1,72 @@
 <%@ page language="java" contentType="text/html"%>
 <%@include file="CommonHeader.jsp" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<div class="container-fluid">
+<style>
+body{
+  background:url('https://images.pexels.com/photos/7147458/pexels-photo-7147458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:cover
+ }
+</style>
 
-  <h3>Brand / Logo</h3>
-  <p> Main Register Page</p>
+<div class="container-fluid">
+ <center>
+  <h3>Register For Free</h3>
+  <p> <u>Enjoy Unlimted Shopping</p>
+</center>
 </div>
 
 <form:form action="registercustomer" modelAttribute="user" method="post">
   <div class="imgcontainer">
-    <img src="https://www.kindpng.com/picc/m/223-2235312_squid-fox-cartoon-hd-png-download.png" alt="Avatar" class="avatar">
+    <img src="" alt="Avatar" class="avatar">
   </div>
+  
+<form action="Welcome.html" method="post">
+<table border="0" align="center">
+<tbody>
+  
+  
+  <h2 ALIGN="CENTER"> Register From</h2>
+  
 
-  <div class="container">
-    <label for="username"><b>Username</b></label>
-   <form:input path="username"/>
+<tr>
+<td><label for="username">Username:</label></td>
+<td><input id="username" maxlength="50" name="username" type="text" /></td>
+</tr>
+<tr>
 
-    <label for="password"><b>Password</b></label>
-    <form:password path="password"/>
-     
-     <label for="customerName"><b>Customer Name</b></label>
-    <form:input path="customerName"/>
+<td><label for="password">Password:</label></td>
+<td><input id="password" maxlength="50" name="password" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="customerName">Customer Name:</label></td>
+<td><input id="customerName" maxlength="50" name="customerName" type="text" /></td>
+</tr>
+<tr>
+
+<td><label for="emailid">Email Id:</label></td>
+<td><input id="emailid" maxlength="50" name="emailid" type="text" /></td>
+</tr>
+
+
+<tr>
+<td><label for="mobileNo">Mobile No:</label></td>
+<td><input id="mobileNo" maxlength="50" name="mobileNo" type="text" /></td>
+</tr>
+<tr>
+
+<td><label for="address">Address:</label></td>
+<td><input id="address" maxlength="50" name="address" type="text" /></td>
+</tr>
     
-     <label for="emailid"><b>Email Id</b></label>
-    <form:input path="emailid"/>
-     
-     <label for="mobileNo"><b>Mobile No</b></label>
-    <form:input path="mobileNo"/>
-   
-   <label for="address"><b>Address</b></label>
-    <form:textarea path="address"/>
-   
-    <button type="submit">Sign UP</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
+ <tr>
+<td align="left"><input name="submit" type="submit" value="Sign UP"/></td>
+</tr>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-  </form:form>
 
-</body>
+</form:form>
+
+ </tbody>
+</table>
+</form>
 </html>

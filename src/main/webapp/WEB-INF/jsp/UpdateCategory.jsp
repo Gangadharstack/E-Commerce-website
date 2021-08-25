@@ -1,5 +1,10 @@
 <%@include file="CommonHeader.jsp" %>
 
+<style>
+body {
+  background-image: url('https://swall.teahub.io/photos/small/44-440424_light-color-wallpaper-light-colours-wallpapers-light-wallpaper.jpg');
+}
+</style>
 <div class="container-fluid">
   <h3>Update Category</h3>
 

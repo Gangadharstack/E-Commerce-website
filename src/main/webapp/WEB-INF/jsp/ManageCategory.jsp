@@ -1,5 +1,11 @@
 <%@include file="CommonHeader.jsp" %>
 
+<style>
+body {
+  background-image: url('https://wallpaper.dog/large/5490896.jpg');
+}
+</style>
+
 <div class="container-fluid">
   <h3>Manage Category Page</h3>
 

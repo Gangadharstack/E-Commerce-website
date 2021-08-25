@@ -12,7 +12,7 @@
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
+
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -79,7 +79,7 @@ span.psw {
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="#">
-    <img src="" alt="logo" style="width:40px;">
+    <img src="https://spng.pngfind.com/pngs/s/120-1204515_bold-serious-cell-phone-logo-design-for-a.png" alt="logo" style="width:40px">
   </a>
   
   <!-- Links -->

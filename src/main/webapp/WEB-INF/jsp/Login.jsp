@@ -1,12 +1,24 @@
 <%@ page language="java" contentType="text/html"%>
 <%@include file="CommonHeader.jsp" %>
-<div class="container-fluid">
-<h2>Login Form</h2>
+<style>
+body {
+
+
+  background-image: url('https://images.pexels.com/photos/6663/desk-white-black-header.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:cover
+}
+</style>
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex align-items-center justify-content-center h-100">
+      <div class="col-md-8 col-lg-7 col-xl-6">
+
+      </div>
+      <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
 
 <form action="perform_login" method="post">
-  <div class="imgcontainer">
-    <img src="https://static.techspot.com/images2/news/bigimage/2015/09/2015-09-24-image-7.jpg" alt="Avatar" class="avatar">
-  </div>
+ 
+
 
   <div class="container">
     <label for="username"><b>Username</b></label>
