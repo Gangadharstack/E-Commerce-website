@@ -12,7 +12,7 @@ body{
  <center>
   <h3>Register For Free</h3>
   <p> <u>Enjoy Unlimted Shopping</p>
-</center>
+  </center>
 </div>
 
 <form:form action="registercustomer" modelAttribute="user" method="post">

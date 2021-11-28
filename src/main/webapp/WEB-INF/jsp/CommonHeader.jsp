@@ -91,7 +91,7 @@ span.psw {
    </c:if> 
   <c:if test="${sessionScope.role=='ROLE_ADMIN'}">
     <li class="nav-item"><a class="nav-link" href="adminhome">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="category">Manage Product</a></li>
+    <li class="nav-item"><a class="nav-link" href="ManageProduct">Manage Product</a></li>
     <li class="nav-item"><a class="nav-link" href="category">Manage Category</a></li>
 	<li class="nav-item"><a class="nav-link" href="category">Manage Supplier</a></li>
    </c:if> 
